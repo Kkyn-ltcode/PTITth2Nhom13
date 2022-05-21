@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns=http://www.w3.org/1999/xhtml xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Product Maintanance</title>
+</head>
+
+<body>
+	<h1>Are you sure want to delete this product?</h1>
+	<form method ="post" >
+		<div>
+			<ul>
+				<li>Product Code: <none th:text ="${product.code}">1</none></li>
+
+				<li>Product Description: <none th:text="${product.description}">1</none></li>
+
+				<li>Product Price: <none th:text="${product.price}">1</none></li>
+			</ul>
+		</div>
+		<input type="hidden" name="code" th:value ="${product.code}">
+		<input type="submit" value="Yes" name ="confirm">
+		<input type="submit" value="No" name ="confirm">
+	</form >
+
+</body>
+
+</html>
