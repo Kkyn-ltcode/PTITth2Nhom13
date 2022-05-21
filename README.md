@@ -26,3 +26,7 @@ Nhóm 13:
       + Sử dụng Repository extend JpaRepository để xóa Product dựa theo phương thức deleteById() 
       + Quay trạng lại trang displayProduct để xem thông tin
       
+
+* USAGE: 
+    + change password at resource properties file to your mysql root password
+    + modify .gitignore to optimize
