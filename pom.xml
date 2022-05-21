@@ -8,13 +8,13 @@
         <version>2.5.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.nhom8</groupId>
-    <artifactId>ptit-thchanh2</artifactId>
+    <groupId>com.nhom13</groupId>
+    <artifactId>ptit-th2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ptit-thchanh2</name>
-    <description>ptit-thchanh2</description>
+    <description>ptit-th2</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>13</java.version>
     </properties>
     <dependencies>
         <dependency>
